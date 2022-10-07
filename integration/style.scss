@@ -1,0 +1,235 @@
+/*# sourceMappingURL=output.css.map */
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: #ebebeb;
+}
+a {
+	text-decoration: inherit;
+	color: inherit;
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 570px;
+	height: 400px;
+	background: white;
+	border-radius: 15px;
+
+}
+.center-item1{
+    font-size: 32px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    padding-top: 67px;
+}
+.text_field {
+	input {
+        padding-left: 20px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        width: 430px;
+		height: 45px;
+		outline: none;
+        &:focus {
+            &:hover{
+			outline: solid #72ac51;
+            }
+            &:invalid {
+                outline: solid red;
+                }
+		}
+        
+	}
+}
+.logo {
+	align-items: center;
+	height: 30px;
+	width: 180px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 250px;
+}
+.header {
+	background-color: white;
+	height: 75px;
+}
+.container {
+	display: flex;
+	background-color: white;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header-left {
+	align-items: center;
+	margin-top: 20px;
+	margin-right: 400px;
+}
+.header-right {
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.button-left {
+	font-size: 14px;
+	color: black;
+	border: none;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	&:hover {
+		background-color: #eee;
+	}
+}
+
+.button-left.active {
+	background-color: #eee;
+}
+.button-right {
+	font-size: 14px;
+	color: white;
+	border: none;
+	margin-right: 30px;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	background-color: #72ac51;
+	&:hover {
+		background-color: #47752d;
+	}
+}
+.button-right.active {
+	background-color: #47752d;
+}
+.content {
+	background-color: #ebebeb;
+	size: 100%;
+}
+.navbar {
+	width: 250px;
+	background-color: white;
+	margin-top: 20px;
+	height: 173px;
+}
+.button-submit {
+	font-size: 14px;
+	width: 450px;
+	height: 42px;
+    text-align: center;
+	border-radius: 20px;
+	background-color: #72ac51;
+	border: none;
+	color: white;
+    margin-left: 60px;
+    margin-top: 20px;
+	&:hover {
+		background-color: #47752d;
+	}
+}
+.catalog {
+	height: 75px;
+}
+.catalog-item1 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+	color: #1b1b1b;
+	&:hover {
+		background-color: #72ac51;
+	}
+}
+.catalog-item1.active {
+	background-color: #72ac51;
+}
+.catalog-item2 {
+	padding: 20px;
+	font-size: 18px;
+	color: #1b1b1b;
+	&:hover {
+		background-color: #72ac51;
+	}
+}
+.catalog-item2.active {
+	background-color: #72ac51;
+}
+.catalog-item3 {
+	padding: 20px;
+	font-size: 18px;
+	color: #1b1b1b;
+	&:hover {
+		background-color: #72ac51;
+	}
+}
+.catalog-item3.active {
+	background-color: #72ac51;
+}
+.catalog-item1topic {
+	width: 802.5px;
+}
+.catalog-itemtopic-content {
+	align-content: center;
+	font-size: 36px;
+	padding-left: 100px;
+	padding-top: 50px;
+	height: 100px;
+}
+.catalog-item1cont1 {
+	font-weight: bold;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.catalog-item1cont2 {
+	font-size: 15px;
+	padding-left: 30px;
+}
+.catalog-item2cont1 {
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  
+.catalog-item2cont2 {
+    font-size: 15px;
+    padding-left: 30px;
+  }
+  
+.ContentPanel1 {
+	display: flex;
+	justify-content: space-between;
+	width: 1070px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ebebeb;
+	height: calc(100vh - 75px);
+}
+.ContentPanel2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 802.5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card1 {
+	width: fit-content;
+	margin-left: 0%;
+	background-color: white;
+}
+.card2{
+	width: fit-content;
+	background-color: white;
+	margin-left: 20px;
+}
+
+/*# sourceMappingURL=output.css.map */
+
